@@ -3,7 +3,11 @@
 <head>
 	<meta charset="UTF-8">
 	<title>minto</title>
+
 	<link rel="stylesheet" href="icomoon/style.css">
+	<link rel="stylesheet" href="css/reset.css">
+	<link rel="stylesheet" href="css/default.css">
+
 </head>
 <body>
 	<div class="container">
@@ -12,16 +16,16 @@
 
 			<ul class="nav">
 				<li class="selected">
-				<a href="#"><span class="icon-home">Home</span></a>
+				<span class="icon-home"><a href="#"> Home</a></span>
 				</li>
 				<li class="selected">
-				<a href="#"><span class="icon-user2">About US</span></a>
+				<span class="icon-user2"><a href="#"> About US</a></span>
 				</li>
 				<li class="selected">
-				<a href="#"><span class="icon-cog2">Services</span></a>
+				<span class="icon-cog2"><a href="#"> Services</a></span>
 				</li>
 				<li class="selected">
-				<a href="#"><span class="icon-envelope">Contact US</span></a>
+				<span class="icon-envelope"><a href="#"> Contact US</a></span>
 				</li>
 			</ul>
 
@@ -33,31 +37,34 @@
 
 		<div class="main">
 			
-			<div class="srcollpicture">
-				<img src="images/add-picture.png" alt="background">
-				<img src="images/banner-bg.jpg" alt="primarypicture">
+			<div class="scrollpicture">
+				<img src="images/banner-bg.png" alt="primarypicture">
 				<img src="images/Minto.png" alt="minto logo">
 				<img src="images/new.png" alt="new picture">
 				<img src="images/left-arrow.png" alt="choose picture from left">
 				<img src="images/right-arrow.png" alt="choose picture from right">
 				<p>A minimal Web Design from cssauthor.com</p>
-			</div><!-- end srcollpicture -->
+			</div><!-- end scrollpicture -->
 
 			<div class="primarycontent">
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Temporibus repellat nesciunt cum officia omnis earum, numquam quidem eos doloribus, debitis qui totam laboriosam dicta! Aspernatur commodi eligendi fugit voluptates excepturi.</p>
+				<h1>
+					<span>Lorem ipsum dolor sit amet</span>,consectetur adipisicing elit. Temporibus repellat nesciunt cum officia omnis earum, numquam quidem eos doloribus, debitis qui totam laboriosam dicta! Aspernatur commodi eligendi fugit voluptates excepturi.
+				</h1>
 			</div><!-- end primarycontent -->
 
 			<div class="secondarycontent">
 				<img src="images/circle.jpg" alt="">
-				<h2 class="lorem">Lorem ipsum dolor sit amet</h2>
-				<p>consectetur adipisicing elit. Blanditiis possimus quidem aut accusantium adipisci voluptate inventore at, incidunt saepe accusamus cupiditate impedit minus a nostrum illum quibusdam amet expedita iure dicta rerum voluptatum, repellat repellendus, voluptas. Molestias, ipsam, animi. Illo eveniet vel doloribus sint molestiae harum explicabo veritatis ullam reprehenderit, quisquam voluptates quae laboriosam! Laborum corrupti libero quaerat velit, dicta possimus illo veritatis nihil consequatur! Recusandae quam, aliquam reprehenderit esse quo, atque voluptatibus harum, dolorum nam non quis deleniti sit. Praesentium est ab debitis vitae, placeat, fugit incidunt voluptatibus quos.</p>
-				<p>Read more<img src="images/read-more-arrow.png" alt="read more"></p>
-
+				<div class="content">
+					<h2>Lorem ipsum dolor sit amet</h2>
+					<p>Consectetur adipisicing elit. Blanditiis possimus quidem aut accusantium adipisci voluptate inventore at, incidunt saepe accusamus cupiditate impedit minus a nostrum illum quibusdam amet expedita iure dicta rerum voluptatum, repellat repellendus, voluptas. Molestias, ipsam, animi. Illo veritatis ullam reprehenderit, quisquam voluptates quae laboriosam! Laborum quaerat velit, dicta possimus illo veritatis nihil consequatur! Recusandae quam, aliquam reprehenderit esse quo, atque voluptatibus harum, dolorum nam non quis deleniti sit. Praesentium est ab debitis vitae, placeat, fugit incidunt voluptatibus quos.</p>
+					<span>Read more <img src="images/read-more-arrow.png" alt="read more"></span>
+				</div>
 			</div><!-- end secondarycontent -->
 
 			<div class="clients">
-				<h3 class="title"><strong>Where</strong> We Have Been Featured</h3>
-				<ul class="ceint-logos">
+				<h3><span>Where</span> We Have Been Featured</h3>
+				<span class="line">dotted line</span>
+				<ul class="logos">
 					<li><img src="images/logo－About.png" alt=""></li>
 					<li><img src="images/logo-Mashable.png" alt=""></li>
 					<li><img src="images/logo-TechCrunch.png" alt=""></li>
@@ -66,6 +73,8 @@
 			</div><!-- end clients -->
 
 		</div><!-- end main -->
+
+	</div><!-- end container -->
 		
 		<div class="footer">
 			<p>© Copyright 2010 - All rights reserved</p>
@@ -75,6 +84,5 @@
 			</div>
 		</div><!-- end footer -->
 
-	</div><!-- end container -->
 </body>
 </html>
